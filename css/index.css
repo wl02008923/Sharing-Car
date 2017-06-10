@@ -1,0 +1,9 @@
+.inf{
+	color: white;
+}
+.inf>h1,.inf>h2{
+	text-shadow: 5px 5px 10px #404040,5px 5px 10px #404040;
+}
+.inf>div>button{
+	margin-top: 3em;
+}
