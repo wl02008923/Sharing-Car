@@ -8,6 +8,7 @@
         <meta name="author" content="">
         <title>Sharing Car</title>
         <!-- Bootstrap Core CSS -->
+        <link rel="icon" href="img/icon.png">
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <!-- Custom Fonts -->
         <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -34,7 +35,7 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand page-scroll" href="#page-top">Sharing Car</a>
+                    <a id="top" class="navbar-brand page-scroll" href="#page-top">Sharing Car</a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -43,13 +44,10 @@
                             <a href="#page-top"></a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#services">Services</a>
+                            <a id="scroll" class="page-scroll" href="#services">Services</a>
                         </li>
                         <li>
-                            <a class="page-scroll" href="#portfolio">Register</a>
-                        </li>
-                        <li>
-                            <a class="page-scroll" href="#contact">Contact</a>
+                            <a id="scroll" class="page-scroll" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -61,9 +59,7 @@
         <header>
             <div class="container">
                 <div class="intro-text">
-                    <div class="intro-lead-in">Welcome To Our Platform!</div>
-                    <div class="intro-heading">It's Nice To Meet You</div>
-                    <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                    <a href="https://www.messenger.com/t/p2psharingcar" class="page-scroll btn btn-xl">立即使用</a>
                 </div>
             </div>
         </header>
@@ -105,75 +101,6 @@
                 </div>
             </div>
         </section>
-        <!-- Portfolio Grid Section -->
-        <section id="portfolio" class="bg-light-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Register For Use</h2>
-                        <h3 class="section-subheading text-muted">若您要使用我們的服務，麻煩您填寫相關資訊</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-sm-6 portfolio-item">
-                        <a href="https://goo.gl/la5bd0" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/1.jpg" class="img-responsive">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>機車 車主</h4>
-                            <p class="text-muted">資料登記</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 portfolio-item">
-                        <a href="https://goo.gl/9uEpNo" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/2.jpg" class="img-responsive">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>汽車 車主</h4>
-                            <p class="text-muted">資料登記</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 portfolio-item">
-                        <a href="https://goo.gl/vTRsaj " class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/3.jpg" class="img-responsive">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>機車 用車人</h4>
-                            <p class="text-muted">資料登記</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 portfolio-item">
-                        <a href="https://goo.gl/dxhtCB" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/4.jpg" class="img-responsive">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>汽車 用車人</h4>
-                            <p class="text-muted">資料登記</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <!-- Contact Section -->
         <section id="contact">
             <div class="container">
@@ -185,7 +112,9 @@
                     享卡出行（Sharing Car）是一個汽機車租借媒合交易平台，我們將會媒合擁有閒置交通工具（汽、機車）的擁有者與有用車需求的人，採取個人對個人（P2P）租車的方式來讓資源有更高效的利用。
                     </h2>
                     <div class="col-lg-12 text-center">
-                        <button type="submit" class="btn btn-xl">Enjoy It Now</button>
+                        <a href="https://www.messenger.com/t/p2psharingcar" target="_blank">
+                            <button type="submit" class="btn btn-xl">Enjoy It Now</button>
+                        </a>
                     </div>
                 </article>
             </div>
@@ -194,43 +123,38 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <span class="copyright">Copyright &copy; Your Website 2016</span>
+                        <span class="copyright">Copyright &copy; Sharing Car Group</span>
                     </div>
                     <div class="col-md-4">
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                </li>
-            </ul>
-        </div>
-        <div class="col-md-4">
-            <ul class="list-inline quicklinks">
-                <li><a href="#">Privacy Policy</a>
-            </li>
-            <li><a href="#">Terms of Use</a>
-        </li>
-    </ul>
-</div>
-</div>
-</div>
-</footer>
-<!-- Portfolio Modals -->
-<!-- Use the modals below to showcase details about your portfolio projects! -->
-<!-- Portfolio Modal 1 -->
-
-<!-- jQuery -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<!-- Bootstrap Core JavaScript -->
-<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!-- Plugin JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
-<!-- Contact Form JavaScript -->
-<script src="js/jqBootstrapValidation.js"></script>
-<script src="js/contact_me.js"></script>
-<!-- Theme JavaScript -->
-<script src="js/agency.min.js"></script>
-</body>
+                            <li>
+                                <a href="https://www.facebook.com/p2psharingcar/?fref=ts"><i class="fa fa-facebook"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-inline quicklinks">
+                            <li>
+                                <a id="footerLink" href="https://www.messenger.com/t/p2psharingcar" target="_blank">Welcome And Join Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals -->
+        <!-- Use the modals below to showcase details about your portfolio projects! -->
+        <!-- Portfolio Modal 1 -->
+        <!-- jQuery -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <!-- Plugin JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+        <!-- Contact Form JavaScript -->
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/contact_me.js"></script>
+        <!-- Theme JavaScript -->
+        <script src="js/agency.min.js"></script>
+    </body>
 </html>

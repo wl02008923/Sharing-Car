@@ -1,0 +1,33 @@
+#top{
+	color: white;
+}
+#top:hover{
+	color: #ffc600;
+	text-shadow: 5px 5px 10px black,5px 5px 10px black;
+}
+#scroll{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+#scroll:hover{
+	text-shadow: 5px 5px 10px black;
+}
+.intro-text>a{
+	margin-top: 10%;
+}
+.inf{
+	color: white;
+}
+.inf>h1,.inf>h2{
+	text-shadow: 5px 5px 10px #404040,5px 5px 10px #404040;
+}
+.inf>div>button{
+	margin-top: 3em;
+}
+#footerLink{
+	color: black;
+	text-decoration: none;
+}
+#footerLink:hover{
+	font-size: 1.2em;
+}
