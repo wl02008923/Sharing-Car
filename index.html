@@ -28,7 +28,7 @@
     </head>
     <body id="page-top" class="index">
         <!-- Navigation -->
-        <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top" style="background-color:black">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header page-scroll">
@@ -40,14 +40,20 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="hidden">
-                            <a href="#page-top"></a>
+                        <li>
+                            <a href="#">Home</a>
                         </li>
                         <li>
-                            <a id="scroll" class="page-scroll" href="#services">Services</a>
+                            <a href="">About Us</a>
                         </li>
                         <li>
-                            <a id="scroll" class="page-scroll" href="#contact">Contact</a>
+                            <a href="">Services</a>
+                        </li>
+                        <li>
+                            <a  href="">Q&A</a>
+                        </li>
+                        <li>
+                            <a  href="">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -59,7 +65,7 @@
         <header>
             <div class="container">
                 <div class="intro-text">
-                    <a href="https://www.messenger.com/t/p2psharingcar" class="page-scroll btn btn-xl">立即使用</a>
+                    <a href="https://www.messenger.com/t/p2psharingcar" class="btn btn-xl" target="_blank">立即使用</a>
                 </div>
             </div>
         </header>
@@ -68,35 +74,46 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">享卡三部曲</h2>
+                        <h2 class="section-heading">享卡出行四部曲</h2>
+                        <h3 class="section-subheading text-muted serviceh3" style="font-style: normal;">簡單步驟，一同出行!</h3>
                     </div>
                 </div>
                 <div class="row text-center">
-                    <div class="col-md-4">
+                    <div class="col-md-3">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="service-heading">Step1</h4>
+                        <h4 class="service-heading">加入享卡出行會員</h4>
+                        <p class="text-muted">輸入姓名、手機、信箱等基本資料</p>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-picture-o fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="service-heading">Step2</h4>
+                        <h4 class="service-heading">認證身分及駕照</h4>
+                        <p class="text-muted">將身分證及駕照的正反面拍照後傳送給我們的聊天機器人</p>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="service-heading">Step3</h4>
+                        <h4 class="service-heading">提供您的所在位置</h4>
+                        <p class="text-muted">點選提供位置，好讓我們為您媒合汽機車租借</p>
+                    </div>
+                    <div class="col-md-3">
                         <span class="fa-stack fa-4x">
                             <i class="fa fa-circle fa-stack-2x text-primary"></i>
                             <i class="fa fa-car fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="service-heading">Step1</h4>
-                        <h4 class="service-heading">租車媒合網路平台</h4>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa fa-wifi fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="service-heading">Step2</h4>
-                        <h4 class="service-heading">無人駕駛車</h4>
-                        <h4 class="service-heading">共享出行網路</h4>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa fa-heart fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="service-heading">Step3</h4>
-                        <h4 class="service-heading">重塑房地產、保險、</h4>
-                        <h4 class="service-heading">旅遊等領域</h4>
+                        <h4 class="service-heading">Step4</h4>
+                        <h4 class="service-heading">選擇車主，完成媒合!</h4>
+                        <p class="text-muted">選擇想要的車輛，並與車主進行洽談，即可駕著剛租借來的汽機車開心出行!</p>
                     </div>
                 </div>
             </div>
@@ -104,26 +121,29 @@
         <!-- Contact Section -->
         <section id="contact">
             <div class="container">
-                <article class="inf">
-                    <h1 class="section-heading">
-                    成立於2016年11月22日
-                    </h1>
-                    <h2>
-                    享卡出行（Sharing Car）是一個汽機車租借媒合交易平台，我們將會媒合擁有閒置交通工具（汽、機車）的擁有者與有用車需求的人，採取個人對個人（P2P）租車的方式來讓資源有更高效的利用。
-                    </h2>
-                    <div class="col-lg-12 text-center">
-                        <a href="https://www.messenger.com/t/p2psharingcar" target="_blank">
-                            <button type="submit" class="btn btn-xl">Enjoy It Now</button>
-                        </a>
-                    </div>
-                </article>
+                <div class="col-md-6">
+                    <article class="inf">
+                        <h3 class="section-heading" style="color:black">
+                        成立於2016年11月22日
+                        </h3>
+                        <p>
+                        享卡出行（Sharing Car）是一個汽機車租借媒合交易平台，我們將會媒合擁有閒置交通工具（汽、機車）的擁有者與有用車需求的人，採取個人對個人（P2P）租車的方式來讓資源有更高效的利用。
+                        </p>
+                        <div class="col-md-12 text-center readmore">
+                            <a href="https://www.messenger.com/t/p2psharingcar" target="_blank">
+                                <button class="btn btn-xl">想看更多</button>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+                
             </div>
         </section>
         <footer>
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <span class="copyright">Copyright &copy; Sharing Car Group</span>
+                        <span class="copyright">Copyright &copy; Sharing Car Team</span>
                     </div>
                     <div class="col-md-4">
                         <ul class="list-inline social-buttons">

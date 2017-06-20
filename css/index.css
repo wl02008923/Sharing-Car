@@ -1,28 +1,53 @@
+.navbar-header{
+	position: relative;
+}
+#logo>img{
+	position: absolute;
+	height: 100%;
+}
 #top{
 	color: white;
 }
 #top:hover{
 	color: #ffc600;
-	text-shadow: 5px 5px 10px black,5px 5px 10px black;
+}
+#top>span>img{
+	position: absolute;
+	width: 100%;
 }
 #scroll{
 	font-weight: bold;
 	font-size: 1.2em;
 }
-#scroll:hover{
-	text-shadow: 5px 5px 10px black;
+.serviceh3{
+	font-weight: bold;
+}
+.intro-text{
+	box-shadow: 0px 0px 10px white;
 }
 .intro-text>a{
 	margin-top: 10%;
+	border: none;
+	background-color: #1882C5;
+	box-shadow: 0px 0px 10px white;
 }
-.inf{
-	color: white;
+.intro-text>a:hover{
+	background-color: #41A7FF;
+	box-shadow: 0px 0px 20px white,0px 0px 20px white;
 }
-.inf>h1,.inf>h2{
-	text-shadow: 5px 5px 10px #404040,5px 5px 10px #404040;
+
+.inf>h3,.inf>p{
+	line-height: 1.8em;
 }
-.inf>div>button{
-	margin-top: 3em;
+.readmore{
+	margin-top: 10%;
+}
+.readmore>a>button{
+	border: none;
+	background-color: #ff8400;
+}
+.readmore>a>button:hover{
+	background-color: #FF964E;
 }
 #footerLink{
 	color: black;
@@ -30,4 +55,13 @@
 }
 #footerLink:hover{
 	font-size: 1.2em;
+}
+
+@media screen and (min-width: 991px) {
+	.inf>h3{
+		font-size: 2.5em;
+	}
+	.inf>p{
+		font-size: 1.5em;
+	}
 }
