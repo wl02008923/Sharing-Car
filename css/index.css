@@ -44,10 +44,12 @@
 }
 .readmore>a>button{
 	border: none;
-	background-color: #ff8400;
+	color: white;
+	background-color: black;
 }
 .readmore>a>button:hover{
-	background-color: #FF964E;
+	color: #ffc600;
+	background-color: black;
 }
 #footerLink{
 	color: black;
