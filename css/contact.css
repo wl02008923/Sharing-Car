@@ -1,0 +1,33 @@
+#contact_header{
+	background-image: url('../img/contact-banner.jpg');
+	background-repeat: no-repeat;
+ 	background-attachment: scroll;
+ 	background-position: center center;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	background-size: cover;
+ 	-o-background-size: cover;
+ 	text-align: center;
+ 	color: white;
+}
+#contactinf{
+	font-family: "Microsoft JhengHei";
+}
+#contacticon{
+	margin-top: 2em;
+}
+#contacticon>div{
+	width: 18em;
+	display: inline-table;
+}
+footer{
+	background-color: #ffe247;
+}
+@media screen and (min-width: 991px) {
+	#contactinf h4{
+		font-size: 2.5em;
+	}
+	#contactinf p{
+		font-size: 1.5em;
+	}
+}
